@@ -1,0 +1,33 @@
+{
+  "name": "three-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://nemutas.github.io/three-template/",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "pnpm run build && gh-pages -d dist",
+    "lint": "biome lint .",
+    "format": "biome format . --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
+    "@types/node": "^18.19.2",
+    "@types/three": "^0.159.0",
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.8.8",
+    "ress": "^5.0.2",
+    "sass": "^1.69.5",
+    "typescript": "^4.9.5",
+    "vite": "^3.2.7",
+    "vite-plugin-glsl": "^0.5.4"
+  },
+  "dependencies": {
+    "gsap": "^3.12.3",
+    "lil-gui": "^0.19.1",
+    "three": "^0.159.0"
+  }
+}
