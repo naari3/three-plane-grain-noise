@@ -14,11 +14,13 @@ class MouseInvert {
 	}
 
 	private createPass() {
+		console.log({ r: new THREE.Color("#151c68").r, g: new THREE.Color("#151c68").g, b: new THREE.Color("#151c68").b });
 		const shader: THREE.Shader = {
 			uniforms: {
 				tDiffuse: { value: null },
 				u_screenAspect: { value: gl.size.aspect },
 				u_mouse: { value: new THREE.Vector2() },
+				u_color: { value: new THREE.Color("#151c68").convertLinearToSRGB() },
 			},
 			vertexShader,
 			fragmentShader,

@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 	return {
 		root: "./src",
 		publicDir: "../public",
-		base: mode === "development" ? "/" : "/three-template/",
+		base: mode === "development" ? "/" : "/three-plane-noise-gradation/",
 		plugins: [glsl()],
 		build: {
 			rollupOptions: {

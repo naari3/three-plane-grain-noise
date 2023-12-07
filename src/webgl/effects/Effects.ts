@@ -16,8 +16,8 @@ class Effects {
 		this.composer.setPixelRatio(window.devicePixelRatio);
 		this.composer.addPass(new RenderPass(gl.scene, gl.camera));
 
-		this.composer.addPass(fxaa.pass);
-		this.composer.addPass(mouseInvert.pass);
+		// this.composer.addPass(fxaa.pass);
+		// this.composer.addPass(mouseInvert.pass);
 	}
 
 	resize() {
