@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nemutas.github.io/three-template/",
+  "homepage": "https://naari3.github.io/three-plane-noise-gradation/",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",

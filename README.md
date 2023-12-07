@@ -1,7 +1,7 @@
 # three-template
 
 ```
-gh repo clone nemutas/three-template
+gh repo clone naari3/three-plane-noise-gradation
 ```
 
 ```
